@@ -1,0 +1,66 @@
+body{
+    background-color: #8cb6ff;
+}
+
+div{
+    color: #ffffff;
+    background-color: #3c4e66;
+    border-radius: 10px; /* 角丸 */
+    width: 80%;
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 18px;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 38px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    word-break: break-all;
+}
+
+h2{
+    font-size: 28px;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    position: relative;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    word-break: break-all;
+}
+
+h2::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #ffffff;
+}
+
+a{
+    color: #d4e4ff;
+}
+
+small{
+    color: #546d8d;
+}
+
+footer{
+    color: #3c4e66;
+    text-align: center;
+    margin: auto;
+    word-break: break-all;
+}
