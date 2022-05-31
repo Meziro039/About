@@ -6,10 +6,11 @@ div{
     color: #ffffff;
     background-color: #3c4e66;
     border-radius: 10px; /* 角丸 */
-    width: 80%;
+    width: 90%;
     margin: auto;
-    max-width: 800px;
-    margin-bottom: 20px;
+    max-width: 700px;
+    margin-bottom: 10px;
+    min-width: 120px;
 }
 
 h1{
@@ -55,6 +56,18 @@ a{
     word-break: break-all;
 }
 
+img{
+    display: flex;
+    border-radius: 50%;
+    margin: auto;
+    margin-right: 10px;
+    width: 40%;
+    height: 40%;
+    max-width: 150px;
+    max-height: 150px;
+    padding: 10px;
+}
+
 small{
     color: #546d8d;
 }
@@ -64,4 +77,14 @@ footer{
     text-align: center;
     margin: auto;
     word-break: break-all;
+}
+
+.profileblock{
+    display: flex;
+}
+
+.profile{
+    display: block;
+    margin: auto;
+    padding-left: 10px;
 }
