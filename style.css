@@ -56,7 +56,7 @@ a{
     word-break: break-all;
 }
 
-img{
+img.icon{
     display: flex;
     border-radius: 50%;
     margin: auto;
@@ -66,6 +66,16 @@ img{
     max-width: 150px;
     max-height: 150px;
     padding: 10px;
+}
+
+img.banner{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 20%;
+    max-width: 300px;
+    min-width: 200px;
 }
 
 small{
